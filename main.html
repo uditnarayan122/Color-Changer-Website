@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multicolor Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Multicolor Website</h1>
+            <p>Change the color theme of the website using CSS Variables.</p>
+        </header>
+
+        <div class="color-selector">
+            <button class="color-btn" onclick="changeColor('theme-red')">Red Theme</button>
+            <button class="color-btn" onclick="changeColor('theme-blue')">Blue Theme</button>
+            <button class="color-btn" onclick="changeColor('theme-green')">Green Theme</button>
+            <button class="color-btn" onclick="changeColor('theme-yellow')">Yellow Theme</button>
+            <button class="color-btn" onclick="changeColor('theme-pink')">Pink Theme</button>
+        </div>
+
+        <section class="content">
+            <p>This is a simple demo to show how CSS variables can be used to create multiple themes for a website.</p>
+        </section>
+
+        <footer class="footer">
+            <p>© 2024 Multicolor Website. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        // JavaScript function to change the CSS theme
+        function changeColor(theme) {
+            document.documentElement.className = theme;
+        }
+    </script>
+</body>
+</html>

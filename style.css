@@ -1,0 +1,121 @@
+/* Define the default theme variables */
+:root {
+    --primary-bg: #f0f0f0;
+    --primary-text: #333;
+    --header-bg: #6200ea;
+    --header-text: #ffffff;
+    --footer-bg: #6200ea;
+    --footer-text: #ffffff;
+}
+
+/* Red Theme */
+.theme-red {
+    --primary-bg: #ffebee;
+    --primary-text: #b71c1c;
+    --header-bg: #d32f2f;
+    --header-text: #ffffff;
+    --footer-bg: #b71c1c;
+    --footer-text: #ffffff;
+}
+
+/* Blue Theme */
+.theme-blue {
+    --primary-bg: #e3f2fd;
+    --primary-text: #0d47a1;
+    --header-bg: #1976d2;
+    --header-text: #ffffff;
+    --footer-bg: #0d47a1;
+    --footer-text: #ffffff;
+}
+
+/* Green Theme */
+.theme-green {
+    --primary-bg: #e8f5e9;
+    --primary-text: #1b5e20;
+    --header-bg: #388e3c;
+    --header-text: #ffffff;
+    --footer-bg: #1b5e20;
+    --footer-text: #ffffff;
+}
+
+/* Pink Theme */
+.theme-yellow {
+    --primary-bg: #fce4ec;
+    --primary-text: #d3e41c;
+    --header-bg: #daed0f;
+    --header-text: #ffffff;
+    --footer-bg: #f5f123;
+    --footer-text: #ffffff;
+}
+
+/* Pink Theme */
+.theme-pink {
+    --primary-bg: #fce4ec;
+    --primary-text: #ee0cbd;
+    --header-bg: #cf16cc;
+    --header-text: #ffffff;
+    --footer-bg: #d11ecb;
+    --footer-text: #ffffff;
+}
+
+/* General Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    background-color: var(--header-bg);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header h1, .header p {
+    color: var(--header-text);
+}
+
+.color-selector {
+    margin: 20px 0;
+}
+
+.color-btn {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.color-btn:hover {
+    background-color: #ddd;
+}
+
+.content {
+    background-color: var(--primary-bg);
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.footer {
+    background-color: var(--footer-bg);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.footer p {
+    margin: 0;
+    color: var(--footer-text);
+}
